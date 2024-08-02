@@ -323,3 +323,69 @@ footer {
     justify-content: space-between;
   }
 }
+@media (max-width: 500px) {
+  .hero__title {
+    font-size: 2rem;
+    padding: 0 0.31rem;
+  }
+
+  .hero__text {
+    font-size: 1rem;
+    padding: 0 0.31rem;
+  }
+
+  .section__title {
+    font-size: 1.5rem;
+  }
+
+  .section__sub-tittle {
+    font-size: 1.5rem;
+  }
+
+  .section__text,
+  .section__text-inline,
+  .section__text-li,
+  .experiences-paragraph {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0.3rem auto;
+  }
+
+  .contact-section {
+    padding: 2px 0;
+  }
+
+  .section__img-inline,
+  .section__img-inline-medium {
+    width: 100%;
+    float: none;
+    margin: 0.3rem 0;
+    height: auto;
+  }
+
+  .section__img-inline-medium {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .gallery__img {
+    height: 9rem;
+    width: 9rem;
+  }
+
+  .gallery__img-wrapper + .gallery__img-wrapper {
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+  }
+
+  .experiences-paragraph {
+    padding: 0 0.3rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 8px 20px;
+  }
+}
